@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.row {
+    width: 100vw;
+    display: flex;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33vw;
+    height: 33vh;
+}
+
+.col:hover {
+    background-color: chartreuse;
+}
+
+.col-1 {
+    background-color: yellow;
+}
+
+.col-3 {
+    background-color: purple;
+}
+
+
+.col-5 {
+    background-color: orange;
+}
+
+
+.col-7 {
+    background-color: blue;
+}
+
+.col-9 {
+    background-color: khaki;
+}
